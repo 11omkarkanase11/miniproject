@@ -4,6 +4,8 @@ import { db } from './firebase-config';
 import Form from './Components/Form/Form';
 import { Routes, Route } from 'react-router-dom'
 import Intro from './Components/Intro';
+import Note from './Components/Note';
+import DisplayDrivers from './Components/Drivers/DisplayDrivers';
 
 function App() {
 
@@ -22,8 +24,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/' element={<Intro />}></Route>
+      <Route path='/' element={<Note />}></Route>
       <Route path='/userLogin' element={<Form />}></Route>
+      <Route path='/displayDrivers' element={<DisplayDrivers />}></Route>
     </Routes>
   );
 }
