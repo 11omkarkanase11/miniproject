@@ -11,7 +11,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
     step="0.0001"
     value={value}
     onChange={(e) => handleChange(e, name)}
-    className="my-2 w-full rounded-lg p-2 outline-none bg-transparent text-black text-sm white-glassmorphism border-2 border-slate-500"
+    className="my-2 w-full rounded-xl p-2 outline-none bg-transparent text-black text-sm white-glassmorphism border-2 border-slate-500"
   />
 );
 
@@ -59,7 +59,7 @@ const DisplayDrivers = () => {
           <button
             type="button"
             onClick={handleSubmit}
-            className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] rounded-full cursor-pointer"
+            className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] bg-[#3d4f7c] rounded-xl cursor-pointer"
           >
             Send now
           </button>
