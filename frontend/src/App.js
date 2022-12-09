@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom'
 import Intro from './Components/Intro';
 import Note from './Components/Note';
 import DisplayDrivers from './Components/Drivers/DisplayDrivers';
+import Loc from '../src/Components/Location/Loc'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Route path='/' element={<Note />}></Route>
       <Route path='/userLogin' element={<Form />}></Route>
       <Route path='/displayDrivers' element={<DisplayDrivers />}></Route>
+      <Route path='/userPage' element={<Loc />} ></Route>
     </Routes>
   );
 }

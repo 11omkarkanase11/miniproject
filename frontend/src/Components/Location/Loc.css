@@ -1,0 +1,40 @@
+#card{
+    background-color: rgb(223, 227, 227);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#form{
+    text-align: center;
+    font-weight: bold;
+}
+
+#label{
+    font-size: medium;
+}
+
+#select1{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#select2{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#submit{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    background-color: rgb(178, 123, 230);
+    font-size: large;
+    border-radius: 10px;
+}

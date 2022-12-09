@@ -1,6 +1,10 @@
 import './note.css';
+import { useNavigate } from 'react-router-dom';
 
 function Note() {
+
+  const navigate=useNavigate();
+
   return (
     <>
     <link
@@ -94,7 +98,7 @@ function Note() {
               <b>USER</b>
             </h2>
             <p className="lead">Carpooling shows a greater heart</p>
-            <a className="btn btn-outline-secondary" href="#">
+            <a className="btn btn-outline-secondary" href="#" onClick={()=>{navigate('/userPage')}}>
               User Login
             </a>
           </div>
@@ -109,7 +113,7 @@ function Note() {
               <b>DRIVER</b>
             </h2>
             <p className="lead">Put to work the vacant seat</p>
-            <a className="btn btn-outline-secondary" href="#">
+            <a className="btn btn-outline-secondary" href="#" onClick={()=>{navigate('/userLogin')}}>
               Driver login
             </a>
           </div>
