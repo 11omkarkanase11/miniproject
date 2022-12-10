@@ -10,31 +10,28 @@
 #form{
     text-align: center;
     font-weight: bold;
+    border-radius: 50px;
 }
 
 #label{
-    font-size: medium;
+    font-size: large;
 }
 
-#select1{
+#select1, #select2{
     padding: 7px;
     margin: 5px;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#select2{
-    padding: 7px;
-    margin: 5px;
-    border-radius: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+
 #submit{
+    color: blanchedalmond;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 10px;
-    background-color: rgb(178, 123, 230);
+    background-color: rgb(85, 0, 165);
     font-size: large;
     border-radius: 10px;
 }

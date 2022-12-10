@@ -26,7 +26,7 @@ const DisplayDrivers = () => {
   };
 
   return (
-    <div className="p-5 block items-center">
+    <div className="p-5 block items-center bg-gradient-to-r from-orange-500 to-yellow-500">
       {drivers.map((val, key) => {
         return (<Driver uname={val.driver_name} uid={val.driver_trans_id} />);
       })}

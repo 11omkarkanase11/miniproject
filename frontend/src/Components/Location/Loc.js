@@ -14,9 +14,9 @@ function Loc() {
   }
 
   return (
-    <div id = "card">
+    <div id = "card" className="bg-gradient-to-r from-orange-500 to-yellow-500">
         
-    <form id="form">
+    <form id="form" className="border-4 border-orange-600 p-28">
         
         <br></br>
         <label id="label">Select Your Location:&nbsp; </label>
@@ -38,7 +38,7 @@ function Loc() {
       </select><br></br>
       <br></br>
       
-      <button id="submit" onClick={()=>{navigate('/displayDrivers')}} >Submit</button>
+      <button id="submit" className="mt-8 " onClick={()=>{navigate('/displayDrivers')}} >Submit</button>
     </form>
     </div>
   )

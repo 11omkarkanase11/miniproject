@@ -23,9 +23,9 @@ const Form = () => {
 
 
     return (
-        <div className='grid grid-cols-2 gap-2 px-8' >
+        <div className='grid grid-cols-2 gap-2 bg-gradient-to-r from-orange-500 to-yellow-500' >
             <div className='pb-16 pt-20 font-bold text-black'>
-                <form onSubmit={registerUser} className='w-4/6 m-auto' >
+                <form onSubmit={registerUser} className='w-4/6 m-auto ' >
                     <fieldset className='border-2 text-xl border-black p-4 rounded-lg mb-8'>
                         <legend ><label htmlFor="user_name" className='px-1' >Driver Name</label></legend>
                         <input type="text" id='user_name' name='user_name' placeholder='Name' className='rounded-lg text-lg border-b focus:outline-0 border-black p-2 bg-transparent' value={d_name} onChange={(e) => { setname(e.target.value) }} />
