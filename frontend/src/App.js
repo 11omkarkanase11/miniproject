@@ -7,6 +7,8 @@ import Intro from './Components/Intro/Intro';
 import Note from './Components/Note';
 import DisplayDrivers from './Components/Drivers/DisplayDrivers';
 import Loc from '../src/Components/Location/Loc'
+import Payment from './Components/Drivers/Payment';
+import Confirmed from './Components/Drivers/Confirmed';
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
       <Route path='/driverLogin' element={<Form />}></Route>
       <Route path='/displayDrivers' element={<DisplayDrivers />}></Route>
       <Route path='/userPage' element={<Loc />} ></Route>
+      <Route path='/paymentPage' element={<Payment />} ></Route>
+      <Route path='/confirmationPage' element={<Confirmed />} ></Route>
     </Routes>
   );
 }

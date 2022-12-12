@@ -10,8 +10,8 @@ const Navbar=()=>{
 
           <div className="flex justify-around w-2/5 mr-12 lg:visible sm:invisible">
               <a href="#home" className="text-lg font-bold text-purple-900 transition-all hover:scale-105">Home</a>
-              <a href="#product" className="text-lg font-bold text-purple-900 transition-all hover:scale-105">Product</a>
-              <a href="#faq" className="text-lg font-bold text-purple-900 transition-all hover:scale-105">Faq</a>
+              <a href="#steps" className="text-lg font-bold text-purple-900 transition-all hover:scale-105">Steps</a>
+              <a href="#page_sec" className="text-lg font-bold text-purple-900 transition-all hover:scale-105">Pages Section</a>
               <a href="#contact" className="text-lg font-bold text-purple-900 transition-all hover:scale-105">Contact</a>
           </div>
 

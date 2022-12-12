@@ -1,7 +1,7 @@
 const Steps = () => {
 
     return (
-        <div class="min-h-screen py-6 flex flex-col justify-center sm:py-12 pt-8">
+        <div id="steps" class="min-h-screen py-6 flex flex-col justify-center sm:py-12 pt-8">
             <h2 className="text-center font-bold text-5xl py-4">Steps To Book a Ride...</h2>
             <div class="py-12 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
                 <div class="relative text-purple-900 antialiased text-lg font-semibold">
@@ -9,7 +9,7 @@ const Steps = () => {
                     <div class="mt-6 sm:mt-0 sm:mb-12">
                         <div class="flex flex-col sm:flex-row items-center">
                             <div class="flex justify-start w-full mx-auto items-center">
-                                <div class="w-full sm:w-1/2 sm:pr-8 -translate-x-24">
+                                <div class="w-full sm:w-2/3 sm:pr-8 -translate-x-28">
                                     <div class="p-8 bg-white rounded-lg shadow">
                                         If you are a driver, go to Driver Login page and you are done.
                                     </div>
